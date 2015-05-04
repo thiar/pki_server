@@ -4,7 +4,7 @@
     <h3 class="panel-title">Request CA</h3>
   </div>
   <div class="panel-body">
-    <form action="" method="post">
+    <form action="<?php echo base_url() ?>index.php/user/create_ca" method="POST">
   <div class="form-group">
     <label for="namaperusahaan">Nama Perusahaan</label>
     <input type="text" class="form-control" placeholder="Masukkan nama perusahaan" name="namaperusahaan">
